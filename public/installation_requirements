@@ -1,0 +1,20 @@
+===================================================================================
+========================== This Command For Python Start ==========================
+===================================================================================
+# ========== How to Run the Online Exam Browser Python Script ==========
+# 1. To launch the Python script, open your command prompt or terminal and run the following command:
+#    [ python OnlineExamBrowser.py ]
+#    This will start the Online Exam Browser application.
+
+# ========== How to Convert the Python Script to a Standalone .exe File ==========
+# 1. Install PyInstaller:
+#    Before converting the script to an executable, you need to install PyInstaller.
+#    Use the following command to install it:
+#    [ pip install pyinstaller ]
+#    This tool helps bundle your Python script into a single executable file.
+
+# 2. Convert Python Script to .exe:
+#    After installing PyInstaller, convert your Python script to a Windows executable (.exe) by running:
+#    [ pyinstaller --onefile --windowed OnlineExamBrowser.py ]
+#    This will create a standalone .exe file inside the 'dist' folder in your project directory.
+#    You can now distribute the .exe file without requiring Python to be installed on the target machine.
